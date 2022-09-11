@@ -40,6 +40,14 @@
           {
             "name": "taskDescription",
             "type": "text",
+            "widget": "html",
+            "tags": [
+              "p",
+              "br",
+              "strong",
+              "em",
+              "code"
+            ],
             "label": "Task description",
             "importance": "high",
             "description": "Instructions to the user.",
