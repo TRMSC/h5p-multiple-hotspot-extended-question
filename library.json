@@ -1,0 +1,44 @@
+{
+  "title": "Multiple Hotspots Extended",
+  "description": "A question that is answered by pressing all the correct hotspots.",
+  "contentType": "Question",
+  "majorVersion": 1,
+  "minorVersion": 0,
+  "patchVersion": 0,
+  "runnable": 1,
+  "author": "Luke Muller, forked by Stefan TRMSC",
+  "coreApi": {
+    "majorVersion": 1,
+    "minorVersion": 6
+  },
+  "machineName": "H5P.MultipleHotspotsExtended",
+  "preloadedCss": [
+    {
+      "path": "multiple-hotspots-extended.css"
+    }
+  ],
+  "preloadedJs": [
+    {
+      "path": "multiple-hotspots-extended.js"
+    }
+  ],
+  "editorDependencies": [
+    {
+      "machineName": "H5PEditor.Wizard",
+      "majorVersion": 1,
+      "minorVersion": 2
+    },
+    {
+      "machineName": "H5PEditor.MultipleHotspotsExtended",
+      "majorVersion": 1,
+      "minorVersion": 0
+    }
+  ],
+  "preloadedDependencies": [
+    {
+      "machineName": "H5P.Question",
+      "majorVersion": 1,
+      "minorVersion": 4
+    }
+  ]
+}
