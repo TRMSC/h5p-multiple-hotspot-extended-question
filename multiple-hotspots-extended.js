@@ -1,10 +1,10 @@
 /*global H5P*/
-H5P.ImageMultipleHotspotQuestion = (function ($, Question) {
+H5P.MultipleHotspotsExtended = (function ($, Question) {
 
   /**
    * Initialize module.
    *
-   * @class H5P.ImageMultipleHotspotQuestion
+   * @class H5P.MultipleHotspotsExtended
    * @extends H5P.Question
    * @param {Object} params Behavior settings
    * @param {number} id Content identification
@@ -527,5 +527,5 @@ H5P.ImageMultipleHotspotQuestion = (function ($, Question) {
     });
   };
 
-  return ImageMultipleHotspotQuestion;
+  return MultipleHotspotsExtended;
 }(H5P.jQuery, H5P.Question));
