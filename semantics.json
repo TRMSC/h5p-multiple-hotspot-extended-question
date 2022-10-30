@@ -1,6 +1,6 @@
 [
   {
-    "name": "mltipleHotspotsExtended",
+    "name": "imageMultipleHotspotQuestion",
     "type": "group",
     "widget": "wizard",
     "label": "Multiple Hotspots Extended Editor",
